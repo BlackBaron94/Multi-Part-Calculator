@@ -19,7 +19,9 @@
 
 Το script είναι χωρίς UI, δέχεται από τον χρήστη μαθηματική παράσταση σε console και την υπολογίζει! 
 Δουλεύει υπολογίζοντας με βάσει την σειρά προτεραιότητας των πράξεων και παρενθέσεων. Υποστηρίζει όλες
-τις βασικές πράξεις μεταξύ ακεραίων και δεκαδικών.
+τις βασικές πράξεις μεταξύ ακεραίων και δεκαδικών, αρνητικών και θετικών.
+Έγινε εκτενές testing για ανεύρεση και διόρθωση logical bugs για τις περισσότερες (αν όχι όλες) τις 
+παραστάσεις που μπορεί να εισάγει ο χρήστης.
 
 ### Τεχνολογίες και βιβλιοθήκες που χρησιμοποιήθηκαν
 
@@ -93,7 +95,7 @@
 - (20/(4*(4+1) αυτό όμως θα οδηγήσει σε σφάλμα επειδή δεν κλείνουν σωστά οι παρενθέσεις,
 όπως τονίζει και το αντίστοιχο μήνυμα που επιστρέφει το πρόγραμμα
 -------
-Μπορείτε να χρησιμοποιείτε είτε , είτε . για κατάδειξη δεκαδικών ψηφίων το πρόγραμμα θα το εντοπίσει σωστά!
+Μπορούν να χρησιμοποιηθούν είτε , είτε . για κατάδειξη δεκαδικών ψηφίων το πρόγραμμα θα το εντοπίσει σωστά!
 - 2.5+2,5 θα δώσει σωστά αποτέλεσμα 5
 -------
 Παρακάτω ακολουθούν διάφορα παραδείγματα σωστής λειτουργίας του script.
@@ -109,17 +111,23 @@
 </div>
 
 --------
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/BlackBaron94/images/main/Multi-Part-Calculator/Example_3.jpg" alt="Example_3" width="750"/>
+</div>
+
+--------
 Εδώ φαίνεται ο αμυντικός προγραμματισμός σε εφαρμογή και όλες οι περιπτώσεις που προλαμβάνει.
 --------
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/BlackBaron94/images/main/Multi-Part-Calculator/Example_3_amuntikos.jpg" alt="Example_3_amuntikos" width="750"/>
+    <img src="https://raw.githubusercontent.com/BlackBaron94/images/main/Multi-Part-Calculator/Example_4_amuntikos.jpg" alt="Example_4_amuntikos" width="750"/>
 </div>
 
 --------
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/BlackBaron94/images/main/Multi-Part-Calculator/Example_4_amuntikos.jpg" alt="Example_4_amuntikos" width="750"/>
+    <img src="https://raw.githubusercontent.com/BlackBaron94/images/main/Multi-Part-Calculator/Example_5_amuntikos.jpg" alt="Example_5_amuntikos" width="750"/>
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -136,6 +144,8 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Επικοινωνία
+
+Παρακαλώ επικοινωνήστε μαζί μου αν βρείτε οποιοδήποτε bug στο e-mail που παραθέτω.
 
 Γιώργος Τσολακίδης - [Linked In: Giorgos Tsolakidis](https://www.linkedin.com/in/black-baron/) - black_baron94@hotmail.com 
 
