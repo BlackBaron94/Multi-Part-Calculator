@@ -191,9 +191,9 @@ def sequence_to_string(sequence_list, start, end):
             # Checks if current operator is in list that is being checked
             if operator_0 in sequence_list[start:end + 1]:
                 # Checks if first part contains unary - operator
-                if '-' == sequence_list[start]:
+                if '-' == sequence_list[start] or '+' == sequence_list[start]:
                     # Converts to unary
-                    sequence_list[start] = '-' + sequence_list[start+1]
+                    sequence_list[start] = sequence_list[start] + sequence_list[start+1]
                     sequence_list.pop(start+1)
                     # End changes as the list becomes smaller
                     end -= 1
@@ -274,7 +274,9 @@ def calculate(string):
     elif '*' in string:
         parts_to_calculate = string.split('*')
         result = float(parts_to_calculate[0]) * float(parts_to_calculate[1])
-    elif '+' in string:
+    # string[1:] makes sure to ignore unary operators 
+    # and find actual two-part operation
+    elif '+' in string[1:]:
         # Check for unary operator + for first part
         if string[0] == '+':
             # Try to split the rest in case there is also two-part operator
@@ -291,8 +293,8 @@ def calculate(string):
         # there is also a 2nd part
         else:
             result = float(parts_to_calculate[0]) + float(parts_to_calculate[1])
-    
-    elif '-' in string:
+    # Ignores unary operation via string[1:]
+    elif '-' in string[1:]:
         # Mandatory for operations that result in first part being negative 
         # also unary 
         if string[0] == '-':
@@ -392,7 +394,6 @@ def solve_sequence(my_list, zero_div_flag):
         flag_done_calculating = check_if_calculation_done(my_list)
     
     return zero_div_flag
-
 
 while __name__ == '__main__':
     user_input = input("Give me a mathematical expression to solve or 'exit' to terminate: \n")
