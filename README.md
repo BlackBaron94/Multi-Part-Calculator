@@ -97,7 +97,30 @@
 - 2.5+2,5 θα δώσει σωστά αποτέλεσμα 5
 -------
 Παρακάτω ακολουθούν διάφορα παραδείγματα σωστής λειτουργίας του script.
+-------
+<div align="center">
+    <img src="https://raw.githubusercontent.com/BlackBaron94/images/main/Multi-Part-Calculator/Example_1.jpg" alt="Example_1" width="500"/>
+</div>
 
+--------
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/BlackBaron94/images/main/Multi-Part-Calculator/Example_2.jpg" alt="Example_2" width="500"/>
+</div>
+
+--------
+Εδώ φαίνεται ο αμυντικός προγραμματισμός σε εφαρμογή και όλες οι περιπτώσεις που προλαμβάνει.
+--------
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/BlackBaron94/images/main/Multi-Part-Calculator/Example_3_amuntikos.jpg" alt="Example_3_amuntikos" width="500"/>
+</div>
+
+--------
+
+<div align="center">
+    <img src="https://raw.githubusercontent.com/BlackBaron94/images/main/Multi-Part-Calculator/Example_4_amuntikos.jpg" alt="Example_4_amuntikos" width="500"/>
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
