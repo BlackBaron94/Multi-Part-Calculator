@@ -24,10 +24,12 @@
 Έγινε εκτενές testing για ανεύρεση και διόρθωση logical bugs για τις περισσότερες (αν όχι όλες) τις 
 παραστάσεις που μπορεί να εισάγει ο χρήστης.
 
-### Τεχνολογίες και βιβλιοθήκες που χρησιμοποιήθηκαν
+### Τεχνολογίες και βιβλιοθήκες που χρησιμοποιήθηκαν:
 
-* [![Python][python.org]][Python-url]
-* [![RegEx][RegEx-Icon]][RegEx-url]
+<a href="https://python.org/"> <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54&style=plastic" alt="Python-logo" width=100px/></a>
+
+<a href="https://regexr.com/"> <img src="https://raw.githubusercontent.com/BlackBaron94/images/main/RegexLogo.png" alt="RegeEx-Logo" width=120px height=26px/></a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,8 +162,3 @@ Project Link: [Multi-Part Calculator](https://github.com/BlackBaron94/Multi-Part
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-[python.org]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
-[python-url]: https://python.org/
-[RegEx-Icon]: https://raw.githubusercontent.com/BlackBaron94/images/main/RegexLogo.png
-[RegEx-url]: https://regexr.com/
